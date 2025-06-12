@@ -1,0 +1,17 @@
+
+{
+    "manifest_version": 2,
+    "name": "mibc",
+    "description": "none",
+    "version": "1",
+    "author": "venu",
+    "permissions": [
+        "activeTab",
+        "http://*.google.com/"
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "mi App"
+    }
+
+}
