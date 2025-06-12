@@ -25,26 +25,6 @@ This project is a web application that uses Chrome's Web Bluetooth API to interc
 - **Bluetooth Device**: A compatible BLE device like the Mi Scale (device name "MIBCS").
 - **Operating System**: Windows, macOS, Linux, or Android (Chrome OS also supported).
 - **Git**: For cloning the repository.
-- **Local Server**: To host the web app (e.g., `live-server` via Node.js).
-
-## Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/bluetooth-signal-interception.git
-   cd bluetooth-signal-interception
-   ```
-
-2. **Set Up a Local Server**
-   Install `live-server` to host the app:
-   ```bash
-   npm install -g live-server
-   ```
-   Run the server:
-   ```bash
-   live-server
-   ```
-   The app will open in Chrome at `http://localhost:8080`.
 
 3. **Enable Web Bluetooth in Chrome**
    - Open Chrome and navigate to `chrome://flags`.
@@ -57,13 +37,11 @@ This project is a web application that uses Chrome's Web Bluetooth API to interc
 
 ## Running the App
 
-1. **Launch the Web App**
-   Run the local server (as above) and open `http://localhost:8080` in Chrome.
 
-2. **Grant Permissions**
+1. **Grant Permissions**
    - Chrome will prompt for Bluetooth access when you click "Start." Allow access to proceed.
 
-3. **Interact with the App**
+2. **Interact with the App**
    - Enter your age, height (in cm), and gender in the form.
    - Click "Start" to begin scanning for the Mi Scale.
    - View real-time weight and health metrics once the device is detected.
@@ -120,9 +98,6 @@ bluetooth-signal-interception/
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
